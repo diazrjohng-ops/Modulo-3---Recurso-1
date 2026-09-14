@@ -1,9 +1,11 @@
+<!-- =============== DOCUMENTO HTML =============== -->
 <!doctype html>
 <html lang="es">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pasos para construir tu investigación</title>
+<!-- =============== ESTILOS =============== -->
 <style>
 :root {
   --teal:#0D7377;
@@ -85,15 +87,20 @@ h1{margin:6px 0 7px;color:var(--vin);font-size:clamp(25px,3.5vw,38px);line-heigh
   .step-card:hover{transform:none}
 }
 </style>
+<!-- =============== FIN ESTILOS =============== -->
 </head>
 <body>
+<!-- =============== CONTENIDO PRINCIPAL =============== -->
 <main class="wrapper" id="research-route">
+  <!-- =============== ENCABEZADO =============== -->
   <header>
     <div class="eyebrow">Ruta de investigación</div>
     <h1>Construye tu investigación</h1>
     <p class="lead">Ya tienes diferentes fuentes para acercarte al caso. Ahora organiza y analiza la información que encontraste para construir una comprensión sustentada.</p>
   </header>
+  <!-- =============== FIN ENCABEZADO =============== -->
 
+  <!-- =============== RUTA DE PASOS =============== -->
   <div class="route" role="tablist" aria-label="Pasos para construir tu investigación">
     
     <button class="step-card active" type="button" data-step="1" aria-expanded="true">
@@ -140,10 +147,16 @@ h1{margin:6px 0 7px;color:var(--vin);font-size:clamp(25px,3.5vw,38px);line-heigh
     
   </div>
 
+  <!-- =============== FIN RUTA DE PASOS =============== -->
+
+  <!-- =============== INDICADOR DE PROGRESO =============== -->
   <div class="progress" aria-hidden="true">
     <span class="dot active" data-dot="1"></span><span class="dot " data-dot="2"></span><span class="dot " data-dot="3"></span><span class="dot " data-dot="4"></span><span class="dot " data-dot="5"></span><span class="dot " data-dot="6"></span>
   </div>
 
+  <!-- =============== FIN INDICADOR DE PROGRESO =============== -->
+
+  <!-- =============== PANEL DE DETALLE =============== -->
   <div class="detail-panel" aria-live="polite">
     
     <section class="detail show" data-detail="1" aria-hidden="false">
@@ -190,11 +203,18 @@ h1{margin:6px 0 7px;color:var(--vin);font-size:clamp(25px,3.5vw,38px);line-heigh
     
   </div>
 
+  <!-- =============== FIN PANEL DE DETALLE =============== -->
+
+  <!-- =============== CIERRE =============== -->
   <div class="final">
     <strong>Al finalizar:</strong> revisa tu Ficha de investigación y comprueba que cada hallazgo importante tenga una fuente y una evidencia que lo respalde.
   </div>
-</main>
+  <!-- =============== FIN CIERRE =============== -->
 
+</main>
+<!-- =============== FIN CONTENIDO PRINCIPAL =============== -->
+
+<!-- =============== SCRIPT =============== -->
 <script>
 (function(){
   const root=document.getElementById('research-route');
@@ -234,5 +254,7 @@ h1{margin:6px 0 7px;color:var(--vin);font-size:clamp(25px,3.5vw,38px);line-heigh
   });
 })();
 </script>
+<!-- =============== FIN SCRIPT =============== -->
 </body>
 </html>
+<!-- =============== FIN DOCUMENTO HTML =============== -->
